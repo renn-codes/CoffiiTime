@@ -1,0 +1,29 @@
+body {
+    background-color: darkgrey;
+}
+
+.box-timer {
+    background-color: #f3f2ef;
+    border-radius: 25px;
+    width: 45%;
+    height: 90%;
+    margin: 25px;
+}
+
+#center-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#add-me {
+    background-color: #f3f2ef;
+    border-radius: 25px;
+    width: 45%;
+    height: 90%;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
