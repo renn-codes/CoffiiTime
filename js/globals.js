@@ -5,8 +5,24 @@ var tNum = 1;
 var vportX = null;
 var vportY = null;
 
-//pre-initialize our timers, because bad code practive is bad
-var coffiiCup1 = new Timer();
-var coffiiCup2 = new Timer();
-var coffiiCup3 = new Timer();
-var coffiiCup4 = new Timer();
+//pre-initialize our timers, because bad code practive is my favourite kind
+var coffiiCup1 = new Timer({
+//  onstop  : add code later because lazy
+    tick    : 1,
+    ontick  : function(ms) { console.log(ms + ' milliseconds left') }
+});
+var coffiiCup2 = new Timer({
+//  onstop  : add code later because lazy
+    tick    : 1,
+    ontick  : function(ms) { console.log(ms + ' milliseconds left') }
+});
+var coffiiCup3 = new Timer({
+//  onstop  : add code later because lazy
+    tick    : 1,
+    ontick  : function(ms) { console.log(ms + ' milliseconds left') }
+});
+var coffiiCup4 = new Timer({
+//  onstop  : add code later because lazy
+    tick    : 1,
+    ontick  : function(ms) { console.log(ms + ' milliseconds left') }
+});
