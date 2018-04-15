@@ -4,11 +4,11 @@ body {
 
 .clock-face {
     width: 100%;
-    height: 350px;
+    height: 325px;
     text-align: center;
     vertical-align: middle;
-    line-height: 350px;
-    font-size: 325px;
+    line-height: 325px;
+    font-size: 320px;
 }
 
 .clock-button {
@@ -20,7 +20,7 @@ body {
     background-color: #f3f2ef;
     border-radius: 25px;
     width: 850px;
-    height: 450px;
+    height: 425px;
     margin: 25px;
     display: flex;
     flex-wrap: wrap;

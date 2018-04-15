@@ -3,12 +3,21 @@
 <title>Coffii Time</title>
 <head>
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="lib/timer.min.js"></script>
+    <script src="js/globals.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/main-jquery.js"></script>
 </head>
-<body>
+<body onload="javascript:makeCoffii();">
     <div id="center-me">
-        <div id="game' + tNum + '" class="box-timer" "game-timer"><div id="' + tNum + '" class="clock-face">00:00</div><button id="' + tNum + '" class="start-button clock-button"></button><button id="' + tNum + '" class="stop-button clock-button"></button><button id="' + tNum + '" class="rem-button clock-button"></button><button id="add-button" class="clock-button"></button></div>
+        <div id="game1" class="box-timer" "game-timer">
+            <div id="tNum1" class="clock-face">00:00</div>
+            <button id="tNum1" class="start-button clock-button"></button>
+            <button id="tNum1" class="stop-button clock-button"></button>
+            <button id="tNum1" class="rem-button clock-button"></button>
+            <button id="add-button" class="clock-button"></button>
+        </div>
     </div>
 </body>
 </html>
