@@ -11,5 +11,4 @@ function makeCoffii() {
     //Set our screen resolution for adjustment later
     vportSet();
     //increment tNum by one so we only have 4 total timers not 5
-    tNum++;
 }

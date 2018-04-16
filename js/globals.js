@@ -9,7 +9,15 @@ var vportY = null;
 var coffiiCup1 = new Timer({
 //  onstop  : add code later because lazy
     tick    : 1,
-    ontick  : function(ms) { console.log(ms + ' milliseconds left') }
+    ontick  : function(ms) {
+        console.log(ms + ' milliseconds left');
+        var sec = ms.toString().slice(0, -3);
+        if(ms.toString().length <= 5) {
+            var min = "00";
+        }
+        var div = document.getElementById('1');
+        div.innerHTML = min + ':' + sec;
+    }
 });
 var coffiiCup2 = new Timer({
 //  onstop  : add code later because lazy
